@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Usuário</title>
+</head>
+<body class="container mt-4">
+    <h2>Editar Usuário</h2>
+    <form method="post">
+        Nome: <input type="text" name="nome" value="{{ usuario[1] }}" class="form-control" required><br>
+        Email: <input type="email" name="email" value="{{ usuario[2] }}" class="form-control" required><br>
+        Senha: <input type="text" name="senha" value="{{ usuario[3] }}" class="form-control" required><br>
+        <button class="btn btn-primary">Atualizar</button>
+        <a href="/" class="btn btn-secondary">Cancelar</a>
+    </form>
+</body>
+</html>
